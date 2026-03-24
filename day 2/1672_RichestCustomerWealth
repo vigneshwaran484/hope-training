@@ -1,0 +1,15 @@
+// 1672. Richest Customer Wealth
+
+class Solution {
+    public int maximumWealth(int[][] accounts) {
+        int max=Integer.MIN_VALUE;
+        for(int [] acc:accounts){
+            int sum=0;
+            for(int val:acc){
+                sum+=val;
+            }
+            if(sum>max) max=sum;
+        }
+        return max;
+    }
+}

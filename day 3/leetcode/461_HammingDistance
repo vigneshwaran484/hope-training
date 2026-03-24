@@ -1,0 +1,13 @@
+// 461. Hamming Distance
+
+class Solution {
+    public int hammingDistance(int x, int y) {
+        long ans=x^y;
+        int c=0;
+        while(ans>0){
+            if((ans&1)==1) c++;
+            ans>>=1;
+        }
+        return c;
+    }
+}

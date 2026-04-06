@@ -1,0 +1,23 @@
+Collection Framework
+   ->Java Collection Framework (JCF) is a set of classes and interfaces that provide ready-made data structures to store and manipulate groups of objects efficiently.
+
+why Collection?
+   ->we Cannot change the size of the array during run time.
+   ->Collection has dynamic sizing, Built-in Algorithms, diverse data Structures, Memory Efficiency, Thread Safety.
+
+Built in Algorithms
+    ->List(ArrayList,LinkedList)
+    ->Set(HashSet,LinkedHashSet,TreeSet)
+    ->map(HashMap,TreeMap)
+    ->Queue(Deque,Enque)
+
+List :
+    ->List is an interface which extends collection interface where the elements can be accessed by their index.
+    ->Unlike Set, it allows duplicates.
+    ->Has two types
+        1.ArrayList
+        2.LinkedList
+
+Memory Allocation of ArrayList :
+    ->new memory=old memory+(old memory/2)
+    ->It may result in memory wastage but it improves time efficiency 

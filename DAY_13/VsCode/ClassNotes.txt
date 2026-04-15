@@ -1,0 +1,13 @@
+List<List<Integer>> list = new ArrayList<>()  //correct
+List<List<Integer>> list=new ArrayList<ArrayList<>>();  //Incorrect
+
+Set 
+    ->It is an interface
+    ->It does not allow duplicates
+    ->It uses hashCode() and equals() method to check for duplicates
+    ->The elements will be unordered
+
+Types of Set
+    ->HashSet-Class,will not allow duplicate values,unordered structure
+    ->LinkedSet-same as hashSet with extra doubly linkedlist to maintain insertion order
+    ->TreeSet-

@@ -1,0 +1,14 @@
+Map
+    ->It is an interface
+    ->It contains HashMap, LinkedHashMap, TreeMap(advanced type)
+     
+HashMap
+    ->It is a class
+    ->It stores data in kay-value pair
+    ->HashMap stores the key and a value pair in the form of a bucket.
+    ->If two key hold the same value, collision happens and the last value is stored in the first key.
+
+LinkedHashMap   
+    ->It is a class
+    ->It is a Ordered list
+    ->Drawback is it is slightly slower than hashmap

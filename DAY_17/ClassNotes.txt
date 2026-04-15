@@ -1,0 +1,22 @@
+Iterator
+    ->It is present in util Package
+    ->Iterator means traversing the given collection
+    ->To traverse efficiently we are going for Iterator
+
+It has three functions:
+    1.hasnext()
+    2.next()
+    3.remove()
+
+->Main motive of iterator is safe removal operation where in your looping removig the element throw exception (ConcurrentException)
+
+Comparable
+    ->The Comparable interface in Java is used to define the natural ordering of objects of a class. It enables objects to be compared and sorted automatically without using an external Comparator.
+
+Comparator
+    ->Comparator is designed to sort multiple attributes
+    ->Comparator is also an interface
+    why comparator?
+        ->comparable gives me sorting provision but we can able to sort only one attribute at a time.
+        ->It is mainly designed for custome sorting.
+
